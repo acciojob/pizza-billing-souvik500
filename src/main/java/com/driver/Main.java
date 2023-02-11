@@ -4,7 +4,7 @@ public class Main {
   public static void main(String[] args) {
     DeluxePizza dp = new DeluxePizza(true);
     System.out.println(dp.getPrice());
-    dp.addExtraToppings();
+    dp.addTakeaway();
     dp.addExtraCheese();
     dp.addTakeaway();
     System.out.println(dp.getBill());
@@ -12,7 +12,7 @@ public class Main {
     Pizza p = new Pizza(false);
     p.addExtraCheese();
     p.addExtraToppings();
-    p.addTakeaway();
+//    p.addTakeaway();
     System.out.println(p.getBill());
   }
 }
